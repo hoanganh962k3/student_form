@@ -21,8 +21,8 @@ label {
 }
 
 input[type="text"] {
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+    padding: 8px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -35,8 +35,26 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin: auto;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
 }
